@@ -1,6 +1,8 @@
 # Project-3-Interpreter
 
-***This is a complex and challenging project! Read the included feature descriptions carefully!***
+*This is a complex and challenging project! Read the included feature descriptions carefully! Start early and ask questions!*
+
+**Due Thursday, February 23 at 11:59 PM**
 
 ## Description and Grading
 
