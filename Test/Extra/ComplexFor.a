@@ -1,0 +1,9 @@
+{ Nested for loops }
+
+program ComplexFor:
+  for i := 1 to 5:
+    for j := i + 1 to 5:
+       print j
+    endfor
+  endfor
+end

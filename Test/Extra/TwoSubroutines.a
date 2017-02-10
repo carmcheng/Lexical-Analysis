@@ -1,0 +1,20 @@
+{ A subroutine that calls another subroutine }
+
+program BasicSubroutine:
+
+  sub print_twice:
+    print arg
+    print arg
+    return
+  endsub
+  
+  sub print_four_times:
+    call print_twice
+    call print_twice
+    return
+  endsub
+  
+  { Main }
+  arg := 10
+  call print_four_times
+end

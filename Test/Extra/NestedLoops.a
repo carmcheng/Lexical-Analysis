@@ -1,0 +1,18 @@
+{ Nested while loops }
+
+program NestedLoops:
+  a := 0
+  count := 0
+  
+  while a < 3:
+    b := 0
+    
+    while b < 3:
+      count := count + 1
+      print count
+      b := b + 1
+    endwhile
+    
+    a := a + 1
+  endwhile
+end

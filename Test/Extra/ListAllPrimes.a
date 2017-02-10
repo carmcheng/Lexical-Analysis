@@ -1,0 +1,38 @@
+{ List all primes less than a given upper limit value }
+
+program ListAllPrimes:
+
+  { Set prime to 1 if arg is prime and 0 otherwise }
+  sub is_prime:
+    n := arg
+    prime := 1  { Assume n is prime until we verify otherwise }
+    
+    { Test all values up to sqrt(n) }
+    i := 2        
+    while i < n:
+      if n % i = 0:
+        prime := 0  { n is divisible by i and not prime }
+        i := n + 1  { end the loop immediately }
+      endif
+      i := i + 1
+    endwhile
+    
+    return
+  endsub
+  
+
+  { Main }
+  input upper_limit
+  current_value := 2
+  
+  while current_value <= upper_limit:
+    arg := current_value
+    call is_prime
+    
+    if prime:
+      print current_value
+    endif
+    
+    current_value := current_value + 1
+  endwhile
+end

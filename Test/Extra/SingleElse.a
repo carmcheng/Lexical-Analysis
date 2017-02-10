@@ -1,0 +1,10 @@
+program SingleElse:
+  a := 0
+  
+  if a > 0:
+      print "Greater than zero."
+  else:
+      print "Not greater than zero."
+  endif
+    
+end

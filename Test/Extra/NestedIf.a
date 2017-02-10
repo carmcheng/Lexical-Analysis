@@ -1,0 +1,14 @@
+{ Nested if statements }
+
+program NestedIf:
+  a := 1
+  b := 1
+  
+  if a > 0:
+    if b > 0:
+      print a
+      print b
+    endif
+  endif
+  
+end

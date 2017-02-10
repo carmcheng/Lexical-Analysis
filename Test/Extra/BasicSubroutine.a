@@ -1,0 +1,15 @@
+{ A single subroutine }
+
+program BasicSubroutine:
+  
+  { Square an argument }
+  sub square:
+    sq := arg * arg
+    return
+  endsub
+  
+  { Main }
+  arg := 10
+  call square
+  print sq
+end

@@ -1,0 +1,19 @@
+program NestedIfElse:
+  a := 1
+  b := 1
+  
+  if a > 0:
+      if b > 0:
+          print "Both greater than zero."
+      else:
+          print "a greater than zero, b not greater than zero."
+      endif
+  else:
+      if b > 0:
+          print "a not greater than zero, b greater than zero."
+      else:
+          print "Both not greater than zero."
+      endif
+  endif
+    
+end

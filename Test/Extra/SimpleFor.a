@@ -1,0 +1,7 @@
+{ A single for loop }
+
+program SimpleFor:
+  for i := 1 to 10:
+    print i
+  endfor
+end
