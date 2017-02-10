@@ -1,0 +1,8 @@
+{ Error in assignment statement
+
+  Don't fix the error --- your program should identify it, throw and
+  Exception, and exit gracefully }
+
+program AssignmentError:
+  a = 1
+end

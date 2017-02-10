@@ -1,0 +1,14 @@
+{ Find all values less than 100 that are divisible by 7 }
+
+program DivisibleBy7:
+  n := 1
+  upper_bound := 100
+  
+  while n <= upper_bound:
+    if n % 7 = 0:
+      print n
+    endif
+    
+    n := n + 1
+  endwhile
+end

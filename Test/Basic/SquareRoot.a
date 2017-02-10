@@ -1,0 +1,19 @@
+{ Babylonian Square Root Algorithm }
+
+program SquareRoot:
+
+  x := 1024
+  guess := 1
+  old_guess := -1
+    
+  { Loop until the algorithm converges }
+  
+  while guess <> old_guess:
+    old_guess := guess
+    guess := (x / guess + guess) / 2
+    print guess
+  endwhile
+  
+  print guess  { Prints 32 }
+
+end

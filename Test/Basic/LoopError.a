@@ -1,0 +1,12 @@
+{ Error in a loop declaration
+
+  Don't fix the error --- your program should identify it, throw an
+  Exception, and exit gracefully }
+
+program LoopError:
+  i := 0
+  
+  while i < 10
+      print i
+  endwhile
+end

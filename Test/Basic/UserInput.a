@@ -1,0 +1,6 @@
+{ User Input }
+
+program UserInput:
+  input num
+  print num
+end

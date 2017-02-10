@@ -1,0 +1,41 @@
+{ Conditional statements }
+
+program Conditionals:
+  one := 1
+  zero := 0
+  
+  { Cases that should print }
+  if one:
+    print one
+  endif
+  
+  if one > zero:
+    print one
+  endif
+  
+  if one >= zero:
+    print one
+  endif
+  
+  if one <> zero:
+    print one
+  endif
+  
+  { Cases that should not print }
+  if zero:
+    print zero
+  endif
+  
+  if one < zero:
+    print zero
+  endif
+  
+  if one <= zero:
+    print zero
+  endif
+  
+  if one = zero:
+    print zero
+  endif
+
+end

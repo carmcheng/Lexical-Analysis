@@ -1,0 +1,9 @@
+{ Conditional without matching endif
+
+  Don't fix the error --- your program should identify it, throw an
+  Exception, and exit gracefully }
+
+program EndError:
+  if 1 < 2:
+    a := 1
+end

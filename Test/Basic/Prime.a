@@ -1,0 +1,23 @@
+{ Primality testing }
+
+program Prime:
+  n := 127  { 2 ^ 7 - 1 is a Mersenne prime }
+  i := 2
+  isPrime := 1  { assume n is prime until we prove otherwise }
+  
+  { The program really only needs to check values
+    up to sqrt(n), but we don't have an easy way
+    to calculate square roots, so we'll just
+    check everything up to n }
+  
+  while i < n:
+    if n % i = 0:
+      isPrime := 0  { we now know n is divisible by i and not prime }
+      i := n
+    endif
+  
+    i := i + 1
+  endwhile
+  
+  print isPrime { Prints 1 }
+end
