@@ -10,7 +10,7 @@ Finish the interpreter program we began in class. The code we developed together
 
 The basic features you **must** implement to receive full credit are described in `Project_3_Basic_Features.txt`. The list of extra features you **may** complete for **extra credit** are described in `Project_3_Extra_Features.txt`.
 
-The `Test` directory contains two sets of test programs: the number of tests your interpreter successfully executes will determine your grade. Each of the ten `Basic` tests counts for ten points each. Each of the `Extra` tests counts for five points.
+The `Test` directory contains two sets of test programs: the number of tests your interpreter successfully executes will determine your grade. Each of the ten `Basic` tests count for ten points each. Each of the `Extra` tests count for five points each.
 
 ## Partners
 
