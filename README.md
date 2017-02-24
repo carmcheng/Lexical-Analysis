@@ -20,5 +20,7 @@ You and your partner will submit the same code and receive the same grade.
 
 ## Name and Honor Code
 
-Edit this section to include your name, your partner's name (if you have one), and a statement of the Honor Code. Also list the extra credit features you have completed.
+On my honor, I have not given, nor receieved, nor witnessed any unauthorized assistance on this work.
+Carmen Cheng
 
+Extra Credit: all tests except NestedIfElse passed
