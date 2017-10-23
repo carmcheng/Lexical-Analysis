@@ -1,6 +1,3 @@
-// An example lexical analyzer that recognizes relational operators and identifiers
-// DSM, 2017
-
 import java.io.PushbackReader;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
