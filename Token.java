@@ -1,6 +1,3 @@
-// A Token recognized by the lexical analyzer
-// DSM, 2017
-
 enum TokenType {
    NAME, NUMBER, LESS_THAN, GREATER_THAN, LESS_THAN_OR_EQUAL, GREATER_THAN_OR_EQUAL,
    EQUAL, NOT_EQUAL, ASSIGN, PLUS, MINUS, TIMES, DIVIDE, EOF, IF, WHILE, THEN, DO,
